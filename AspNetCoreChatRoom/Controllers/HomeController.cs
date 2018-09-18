@@ -7,7 +7,7 @@ namespace AspNetCoreChatRoom.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-            return View("InsertUserName");
+            return View("Index");
         }
 
         [HttpPost]
