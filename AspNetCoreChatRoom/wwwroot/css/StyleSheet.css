@@ -1,6 +1,9 @@
 ﻿body {
     margin: 0px;
     padding: 0px;
+    background: black;
+    
+    
 }
 
 .msg {
@@ -13,4 +16,21 @@
     overflow: scroll;
     width: 100%;
     white-space: nowrap;
+    z-index: -1;
+    
 }
+#msgs{
+    color: white;
+}
+#MessageField{
+    color: black;
+    background-color: red;
+}
+
+.userName{
+    color: yellow;
+    display: inline;
+    font-weight: bold;
+    font-style: italic;
+}
+
