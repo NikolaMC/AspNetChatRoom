@@ -1,0 +1,36 @@
+﻿body {
+    margin: 0px;
+    padding: 0px;
+    background: black;
+    
+    
+}
+
+.msg {
+    position: absolute;
+    top: 0;
+    bottom: 30px;
+    border: 1px solid green;
+    margin-bottom: auto;
+    display: block;
+    overflow: scroll;
+    width: 100%;
+    white-space: nowrap;
+    z-index: -1;
+    
+}
+#msgs{
+    color: white;
+}
+#MessageField{
+    color: black;
+    background-color: red;
+}
+
+.userName{
+    color: yellow;
+    display: inline;
+    font-weight: bold;
+    font-style: italic;
+}
+
