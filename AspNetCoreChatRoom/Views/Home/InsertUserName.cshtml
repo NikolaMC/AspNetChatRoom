@@ -1,0 +1,9 @@
+﻿@{
+}
+@Html.ValidationSummary()
+
+
+<form action="@Url.Action("Index")" method="post" class="text-center userNameForm">
+    <input type="text" placeholder="Skriv in ditt användarnamn" name="userName" /><br />
+    <input type="submit" value="Anslut" />
+</form>
